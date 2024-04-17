@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: "/notepad/",
   head: [["link", { rel: "icon", href: "https://llllm.oss-cn-beijing.aliyuncs.com/llllm-image/Document-Write-icon.png" }]],
   title: "LLLLM",
   description: "全栈编程知识体系",
